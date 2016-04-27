@@ -7,13 +7,6 @@
 	src: url('fonts/raleway.semibold.ttf') format('truetype');
 }
 
-@media all and (max-width: 410px){
-
-
-}
-
-/*Desktop and tablet*/
-@media all and (min-width: 411px){
 header{
 	position:fixed;
 	width: 100%;
@@ -50,15 +43,12 @@ header li a {
 header li a:hover {
     background-color: #1B7DB1;
 }
-
 .filler{
 	height: 25px;
 }
-section{
-	width: 100%;
-}
+
 .home{
-	background-image: url('http://beauty.takarabelmont.com/content/images/uploads/design-portfolio/Franks%20Barbershop/Franks%20Barber%20Shop-3.jpg');
+	background-image: url('images/barbershop.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -75,6 +65,109 @@ section{
 	margin-top: 0;
 	padding-top: 100px;
 }
+
+
+
+
+
+
+
+
+/*Mobile devise*/
+@media all and (max-width: 410px){
+
+.home{
+	font-size: 1.5em;
+}
+.about{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: black;
+}
+.aboutboxes{
+	text-align: center;
+	color: #DE3721;
+	margin: auto;
+	background-color: #F5F2F2;
+	font-family: "raleway";
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+	padding: 15px 15px;
+
+}
+.menuwrapper{
+	color: white;
+	
+	height: 225px;
+	text-decoration: none;
+	text-align: center;
+	background-color: #1B7DB1;
+	
+
+}
+.menuwrapper h3{
+	padding-top: 20px;
+}
+.menuwrapper table{
+	padding-bottom: 20px;
+}
+.visitus{
+	display: inline;
+	font-family: "raleway";
+	font-weight: bolder;
+	text-align: center;
+	height: 500px;
+	color: black;
+	background-color: #DE3721;
+}
+.visitus h1{
+	margin-top: 0px;
+	padding-top: 15px;
+}
+.visitus p{
+	width: 60%;
+	margin: auto;
+	padding-bottom: 25px;
+}
+#map{
+	width: 100%;
+}
+.mapper{
+	max-width: 320px;
+	margin: auto;
+}
+#location{
+	background-color: #DE3721;
+}
+
+footer{
+	clear: both;
+	width: 100%;
+	bottom: 0;
+	height: 50px;
+	background-color: #1B7DB1;
+}
+footer p{
+	margin-top: 0px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+}
+
+/*Desktop and tablet*/
+@media all and (min-width: 411px){
+
+
+
+section{
+	width: 100%;
+}
+
+
+
 .about{
 	background-color: black;
 	color: #DE3721;
@@ -94,6 +187,7 @@ section{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	height: 240px;
+	padding: 15px 15px;
 }
 
 .aboutboxes ul{
@@ -104,7 +198,7 @@ section{
 	float: left;
 	height: 400px;
 	width: 50%;
-	background-image: url('http://www.boldandbeautifulsalon.com/images/barbershop.jpg');
+	background-image: url('images/barber.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
