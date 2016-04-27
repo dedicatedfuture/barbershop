@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Classic Man Babershop</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#prices">Prices</a></li>
+			<li><a href="#location">Location</a></li>
+		</ul>
+	</header>
+	<div class="filler">
+	</div>
+	<section class="section home" id="home">
+		<div class="homewrapper">
+			<h1>Classic Man Barbershop</h1>
+			<h2>Look Sharp. Feel Sharp.</h2>
+			<h2>(215) 567-6166</h2>
+		</div>
+	</section>
+	<section class="section about" id="about">
+		<div class="aboutboxes">
+			<h3>Appointments Available.</h3>
+			<h3> Walk Ins Welcome.</h3>
+			<h4>(215) 567-6166</h4>
+			<p>Set up an appointment to have a mens fashion expert dedicated to you. Not sure when you can swing in? Just get in here when you can, we will take care of the rest. </p>
+		</div>
+		<div class="aboutboxes">
+			<h3>Hours</h3>
+			<ul>
+			<table>
+				<tr>
+					<td>Monday</td><td>12pm - 8pm</td>
+				</tr>
+				<tr>
+					<td>Tuesday</td><td>10am - 8pm</td>
+				</tr>
+				<tr>
+					<td>Wednesday</td><td>10am - 8pm</td>
+				</tr>
+				<tr>
+					<td>Thursday</td><td>10am - 8pm</td>
+				</tr>
+				<tr>
+					<td>Friday</td><td>10am - 8pm</td>
+				</tr>
+				<tr>
+					<td>Saturday</td><td>10am - 8pm</td>
+				</tr>
+				<tr>
+					<td>Sunday</td><td>10am - 8pm</td>
+				</tr>
+			
+				</table>
+		</div>
+		<div class="aboutboxes">
+		<h3>Years of Experience</h3>
+		<p>We have spent over 20 years perfecting our craft while serving the same neighborhood. As part of the community our professional barbers will make sure you are a fresh, clean, Classic Man. 
+		</div>
+
+	</section>
+	<section class="section menu" id="prices">
+		
+		<div class="menupic"></div>
+		<div class="menuwrapper">
+		<h3>Prices</h3>
+			<table class="tableprices">
+			  <tr>
+			 	 <td>Men's Haircut</td><td>..........................</td><td>$20</td>
+			  </tr>
+			  <tr>
+			 	 <td>Beard Trim</td><td>..........................</td><td>$3</td>
+			  </tr>
+			  <tr>
+			 	 <td>Men's Fade</td><td>..........................</td><td>$20</td>
+			  </tr>
+			  <tr>
+			 	 <td>Shampoo</td><td>..........................</td><td>$12</td>
+			  </tr>
+			  <tr>
+			 	 <td>Men's Advanced Haircut</td><td>..........................</td><td>$30</td>
+			  </tr>
+			  <tr>
+			 	 <td>Men's Shave</td><td>..........................</td><td>$12</td>
+			  </tr>
+			  <tr>
+			 	 <td>Men's Haircut</td><td>..........................</td><td>$20</td>
+			  </tr>
+			  <tr>
+			 	 <td>Men's Haircut</td><td>..........................</td><td>$20</td>
+			  </tr>
+
+			</table>
+
+
+
+			<!-- <ul>
+				<li>Men's Haircut..........................$20</li>
+				<li>Beard Trim..............................$3</li>
+				<li>Men's Fade.............................$20</li>
+				<li>Shampoo................................$12</li>
+				<li>Men's Advanced Haircut............$30</li>
+				<li>Men's Shave............................$12</li>
+				<li>Men's Haircut..........................$20</li>
+				<li>Men's Haircut..........................$20</li>
+			</ul> -->
+		</div>
+	</section>
+	<section class="section location" id="location">
+		<div class="visitus">	
+			<h1>Please visit our family.</h1>
+			<h3>We will clean you up. Leaving you feeling fresh.</h3>
+			<p>Our professional barbers specialize in men's grooming. Unlike cosmotologists found in unisex salons we hone our craft to transform you into a masculine handsome man. Our barbers still use single blade razors to give you that tight touch up. They are experts with clippers that should be the first line in mens grooming. </p>
+		</div>
+				<div id="map">
+				<!-- google map generated code -->
+					<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+						<div class="mapper"style='overflow:hidden;height:340px;width:500px;'>
+							<div id='gmap_canvas' style='height:340px;width:500px;'></div>
+						<div>
+							<small><a href="http://embedgooglemaps.com">embed google maps</a></small>
+						</div>
+						<div>
+							<small><a href="http://www.proxysitereviews.com/">proxies</a></small>
+						</div>
+						<style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
+						<script type='text/javascript'>
+							function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(39.9629504,-75.16348700000003),mapTypeId: google.maps.MapTypeId.ROADMAP};
+								map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(39.9629504,-75.16348700000003)});
+								infowindow = new google.maps.InfoWindow({content:'<strong>Classic Man Barbershop</strong><br>1513 Spring Garden St, Philadelphia, PA 19130<br>'});
+								google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+				</div>
+
+	</section>
+	<footer>
+	<p>Zerega Web Development 2016</p>
+
+	</footer>
+	
+	
+
+
+</body>
+</html>
